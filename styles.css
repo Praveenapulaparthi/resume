@@ -1,0 +1,35 @@
+/* global styles*/
+html{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+*,*::before,*::after{
+     box-sizing:inherit;
+     margin:0;
+}
+.content-wrapper{
+    margin:0 auto;
+    max-width: 900px;
+}
+body{
+    background-color: whitesmoke;
+
+}
+a{
+   color: yellowgreen;
+}
+a:hover{
+    color:rgb(133, 113, 68);
+}
+.btn{
+    background-color: green;
+    color:bisque;
+    text-decoration: none;
+}
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
